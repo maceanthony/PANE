@@ -2,10 +2,6 @@ body {
   overflow-x: hidden;
 }
 
-.navbar {
-  z-index: 1;
-}
-
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
@@ -15,10 +11,6 @@ body {
 
 .navbar .nav-item.active {
   border-left: #444 3px solid;
-}
-
-.navbar-toggler-icon {
-  z-index: 2;
 }
 
 .carousel-item {
