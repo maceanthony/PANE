@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+.navbar {
+  z-index: 1;
+}
+
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
@@ -13,23 +17,51 @@ body {
   border-left: #444 3px solid;
 }
 
+.navbar-toggler-icon {
+  z-index: 2;
+}
+
+#showcase {
+  height: 50vw;
+}
+
+.carousel-inner {
+  height: 100%;
+  max-width: 100%;
+}
+
+.carousel {
+  height: 100%;
+  max-width: 100%;
+}
+
 .carousel-item {
-  height: 450px;
+  height: 100%;
+  
 }
 
 .carousel-image-1 {
-  background: url('../img/image1.jpg');
+  background: url('../img/AMorrison.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  /* background-position: center; */
 }
 
 .carousel-image-2 {
-  background: url('../img/image2.jpg');
+  background: url('../img/PANE.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center 25%;
 }
 
 .carousel-image-3 {
-  background: url('../img/image3.jpg');
-  background-size: cover;
+  background: url('../img/PanePhoto3.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
 }
 
 #home-heading {
